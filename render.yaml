@@ -6,6 +6,6 @@ services:
     startCommand: python app.py
     envVars:
       - key: PYTHON_VERSION
-        value: 3.12.10
+        value: 3.9.12
     healthCheckPath: /
     autoDeploy: true 
